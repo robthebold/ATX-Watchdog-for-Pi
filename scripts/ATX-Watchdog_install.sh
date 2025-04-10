@@ -89,7 +89,7 @@ ExecStop=/usr/bin/python3 /usr/local/bin/ATX-Watchdog/ATX-Watchdog_shutdown.py
 WantedBy=multi-user.target
 ' > /etc/systemd/system/ATX-Watchdog_shutdown.service
 sudo echo '[Unit]
-Description=Signal the ATX-Watchdog that we are shutting down
+Description=Signal the ATX-Watchdog that we are starting up
 
 [Service]
 Type=simple
